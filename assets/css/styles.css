@@ -1,11 +1,8 @@
-html {
-    min-height: 100%;
-    position: relative;
-}
-
- body {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
-    margin-bottom: 60px;
 }
 
 header {
@@ -56,12 +53,41 @@ nav ul li a:hover {
 footer {
     background-color: rgb(59, 59, 59); /* Color de fondo del footer */
     color: #fff;
-    display: grid;
-    place-items: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.iconos-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre los iconos */
+    margin-bottom: 10px;
+}
+
+/* .iconos-container img{
+    width: 30px; 
+    height: auto;
+    color: #9B6F5B;
+}
+*/
+
+.iconos-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.iconos-link:hover {
+    background-color: rgb(59, 59, 59); /* Color de fondo al pasar el ratón */
+    color: #fff; /* Color del icono al pasar el ratón */
 }
 
 /* Inicio de vista PRINCIPAL */
@@ -131,16 +157,15 @@ h2{
 }
 /* Final de vista ACERCA DE NOSOTROS */
 
-.formulario{
-    margin-bottom: 100px;
-}
-
 .fp{
     color: black;
 }
 
-.container{
+/* .container{
     width: 90%;
     margin: 20px auto;
-    margin-bottom: 100px;
+} */
+
+.derecha{
+    padding: 15px;
 }
