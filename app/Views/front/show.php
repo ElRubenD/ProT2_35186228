@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container show">
     <div class="row row-cols-1 row-cols-md-5 g-2">
       <div class="col">
         <div class="card h-100">

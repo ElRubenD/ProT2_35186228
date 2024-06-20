@@ -161,11 +161,11 @@ h2{
     color: black;
 }
 
-/* .container{
-    width: 90%;
-    margin: 20px auto;
-} */
-
 .derecha{
     padding: 15px;
+}
+
+.show{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
